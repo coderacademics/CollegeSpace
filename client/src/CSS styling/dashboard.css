@@ -1,0 +1,132 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard_container {
+  display: flex;
+}
+.components_container{
+  display: flex;
+  position: absolute;
+  top: 25vh;
+  right: 6em;
+}
+.dashboard {
+  margin: 0;
+}
+
+.sideNav {
+  background-color: #2f3c4e;
+  height: 100vh;
+  width: 15vw;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.815);
+  list-style: none;
+  margin: 0;
+}
+
+.controller {
+  margin-left: 1em;
+  margin-bottom: 2em;
+  padding-top: 1em;
+}
+
+.verNavLinks {
+  display: flex;
+  padding-left: 1em;
+  padding-right: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: 110%;
+}
+
+.verNavLinks:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #252e3a;
+  transition: 0.1s ease-in-out;
+}
+
+.dashboard_icon {
+  padding-right: 0.5em;
+}
+
+.dashboard_icon:hover {
+  cursor: pointer;
+}
+
+.horizontal_Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  height: 15vh;
+  background-color: #3f8df3;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100vw;
+}
+.logout{
+  max-zoom: 70%;
+  padding-right: 1em;
+}
+.chatbot{
+  max-height: 10vh;
+  min-height: 50px;
+  max-width: 8vw;
+  min-width: 20px;
+  position: absolute;
+  bottom: 10vh;
+  right: 4vw;
+  box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), ;
+
+}
+
+.profile-section{
+  background-color: white;
+  /* margin-top: 3vb; */
+  margin-right: 13vw;
+  padding: 3em;
+  zoom: 110%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1em;
+  max-width: 70vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: fit-content;
+  min-height: fit-content;
+}
+
+.profileContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* z-index: 1; */
+}
+
+.profile-sec{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-heading {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  color: cadetblue;
+}
+
+.profile-details{
+  margin: 1em auto 0.5em;
+}
+.profile-details,h4{
+  color: #737676;
+  font-size: medium;
+}

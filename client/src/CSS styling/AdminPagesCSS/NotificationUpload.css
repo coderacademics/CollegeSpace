@@ -1,0 +1,25 @@
+.notificationuploadForm{
+    margin-top: 12vh;
+    padding: 3em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1em;
+    max-width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+.notificationuploadFormContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.eventupload-form-section{
+    display: flex;
+    flex-direction: column;
+}  
+.input{
+   width: inherit;
+}

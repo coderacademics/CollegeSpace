@@ -1,0 +1,15 @@
+.image-container{
+    margin: 1em;
+    padding: 1em 1em 1em 1em;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+}
+.image-box{
+    height: 250px;
+    width: 300px;
+}
+.caption-box{
+    text-align: center;
+    padding-top: 0.5em;
+}

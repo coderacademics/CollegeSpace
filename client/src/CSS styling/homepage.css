@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg_container {
+    background-color: #3c82ff;
+    background-image: linear-gradient(180deg, #3c82ff 0%, #4041b5 50%, #08253a 100%);
+
+}
+
+.nav {
+    background-image: linear-gradient(to top, rgba(38, 106, 254, 0.93), rgba(38, 106, 254, 0.826));
+    box-shadow: 0 4px 8px 0 rgba(109, 109, 109, 0.2), 0 6px 20px 0 rgba(174, 174, 174, 0.19);
+    width: 100vw;
+
+}
+
+.nav_vertical {
+    position: absolute;
+    top: 45vh;
+    left: 0;
+}
+
+.navlinks_v {
+    display: inline-block;
+    padding-top: 0.35em;
+    margin: 0;
+    font-size: small;
+}
+
+.navlinks {
+    margin-left: auto;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    color: white;
+    font-style: 500;
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.715);
+    display: flex;
+}
+
+.link .icon {
+    flex: 30%;
+}
+
+.link .title {
+    flex: 60%;
+}
+
+.link:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.ver_link {
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+}
+
+.ver_link:hover {
+    color: linear-gradient(180deg, #3c82ff 0%, #4041b5 80%);
+}
+
+li {
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 1em;
+}
+
+
+
+
+
+/* ------------------SLIDE 1 CSS------------------ */
+.slide1 {
+    height: 110vh;
+    /* color: white; */
+    width: 100vw;
+}
+.slide1_text_part{
+    margin-top: 3em;
+    margin-left: 5em;
+    text-align: center;
+}
+.slide1_hello {
+    font-weight: 600;
+    font-size: 5em;
+    padding-top: 25vh;
+    margin-bottom: auto;
+}
+
+.slide1_message {
+    text-align: left;
+    word-spacing: 0.1em;
+    line-height: 115%;
+    font-weight: 500;
+    font-size: 125%;
+}
+
+.homepage_btn {
+    text-align: center;
+    margin-left: 47vw;
+}
+
+
+
+
+
+/* ------------------SLIDE 2 CSS------------------ */
+.slide2 {
+    background-color: #ffffff;
+    background: -webkit-linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+    min-height: fit-content;
+    max-height: 100vh;
+}
+
+.phases_Images img {
+    height: 25vh;
+    width: 20vw;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+/* ----------------SLIDE 3--------------- */
+.slide3 {
+    background-color: #3c82ff;
+    background-image: linear-gradient(180deg, #3c82ff 0%, #4041b5 80%);
+
+    min-height: fit-content;
+    height: 100vh;
+}
+
+.msg_slide3 {
+    text-align: right;
+    color: white;
+    padding-left: 20em;
+    margin-top: 5em;
+}
+
+.pic img {
+    height: 50vh;
+    width: 25vw;
+}
+
+.grad {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.grad_notes {
+    height: 35vh;
+}
+
+.msg {
+    font-size: 0.9em;
+    padding-top: 1em;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* ----------------SLIDE 4------------- */
+.slide4 {
+    background-color: #4041b5;
+    background-image: linear-gradient(180deg, #4041b5 0%, #08253a 100%);
+    padding-top: 5em;
+    height: fit-content;
+    min-height: 100vh;
+    background-color: transparent;
+    padding-bottom: 3em;
+}
+
+.nostalgia img {
+    height: 40vh;
+    width: 25vw;
+}
+
+.msg_slide4 {
+    text-align: right;
+    color: white;
+    padding-left: 20em;
+}
+
+.nostal_notes {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.nostal {
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+
+
+
+
+/* ----------------FOOTER------------------ */
+.footer {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: fit-content;
+    background-color: aquamarine;
+    border-radius: 4em;
+    margin: 1em;
+    padding-top: 0;
+    font-size: 1em;
+    align-items: center;
+}
+
+.footer_items {
+    display: inline;
+    padding: 0.6em;
+    margin: 0;
+
+}
+
+.profile_pic {
+    height: 6vh;
+    width: 2.5vw;
+    border-radius: 50%;
+
+}
+
+.linkedInIcon {
+    padding-right: 3em;
+}
+
+.linkedInIcon:hover {
+    cursor: pointer;
+}
+
+.name .post {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}

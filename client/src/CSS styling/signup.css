@@ -1,0 +1,49 @@
+.signupFormContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    zoom: 95%;
+}
+.signupForm{
+    margin-top: 3vh;
+    min-width: 70vw;
+    max-width: fit-content;
+    min-height: 70vh;
+    max-height: fit-content;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+.signup_heading{
+  margin-top: 0.5em; 
+  margin-bottom: 0.5em;
+} 
+img{
+    height: inherit;
+    width: inherit;
+}
+.image-section{
+    height: 0;
+    width: 0;
+    visibility: collapse;
+}
+@media screen and (min-width :1100px) {
+    .image-section{
+        visibility: visible;
+        height: 40vh;
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+}
+.signupform-section{
+    display: flex;
+    flex-direction: column;
+}
+.css_animation{
+    height: calc(100vh - 0);
+}

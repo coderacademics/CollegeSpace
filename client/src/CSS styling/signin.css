@@ -1,0 +1,41 @@
+
+.signinForm{
+    background-color: white;
+    margin-top: 5vh;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1em;
+    max-width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+.signinFormContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* z-index: 1; */
+}
+
+.signin-form-section{
+    display: flex;
+    flex-direction: column;
+}  
+
+.image-section{
+    height: 0;
+    width: 0;
+    visibility: collapse;
+}
+@media screen and (min-width :1000px) {
+    .image-section{
+        visibility: visible;
+        height: 6vh;
+        width: 10vw;
+    }
+}
+.input{
+   width: inherit;
+}

@@ -1,0 +1,18 @@
+.galleryContainer h2{
+    text-align: center;
+    margin-top: 1em;
+}
+.pagination{
+    /* margin-left: 18vw; */
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+.gallery_upload_btn_user{
+    font-size: 1.2em;
+    padding: 0.8em 1.5em 0.8em 1.5em;
+    border-radius: 8vh;
+    position: sticky;
+    margin-left: 88vw;
+    bottom: 5vh;
+}

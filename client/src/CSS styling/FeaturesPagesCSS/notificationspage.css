@@ -1,0 +1,21 @@
+.notificationCard{
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.458), 0 6px 8px 0 rgba(0, 0, 0, 0.589);
+    height: auto;
+    width: 20vw;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.date{
+    padding-top: 1.5em;
+}
+h1{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.notificationsContainer{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    margin-left: 3em;    
+}
